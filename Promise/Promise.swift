@@ -29,6 +29,8 @@ public class Promise<T> {
 
     public func resolve(value: T) {
         synchronized {
+            self.verifyNotResolvedOrRejected()
+
             self.value = value
             for callback in self.successCallbacks {
                 callback(value)
@@ -45,10 +47,22 @@ public class Promise<T> {
 
     public func reject(error: PromiseError) {
         synchronized {
+            self.verifyNotResolvedOrRejected()
+
             self.error = error
             for callback in self.errorCallbacks {
                 callback(error)
             }
+        }
+    }
+
+    private func verifyNotResolvedOrRejected() {
+        if (value != nil) {
+            assertionFailure("Promise has already been resolved with \(value!).")
+        }
+
+        if (error != nil) {
+            assertionFailure("Promise has already been rejected with \(error!.message).")
         }
     }
 
