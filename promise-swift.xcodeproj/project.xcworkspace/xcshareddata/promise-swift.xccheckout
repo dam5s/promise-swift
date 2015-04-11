@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D3BE2525-BF78-4E2E-B181-1148E111FFFA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>promise-swift</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>889C48DB74D7BA7DAC250E93C3E8AD0F70CD2008</key>
+		<string>github.com:dam5s/promise-swift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>promise-swift.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>889C48DB74D7BA7DAC250E93C3E8AD0F70CD2008</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:dam5s/promise-swift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>889C48DB74D7BA7DAC250E93C3E8AD0F70CD2008</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>889C48DB74D7BA7DAC250E93C3E8AD0F70CD2008</string>
+			<key>IDESourceControlWCCName</key>
+			<string>promise-swift</string>
+		</dict>
+	</array>
+</dict>
+</plist>
